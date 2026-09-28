@@ -1,0 +1,176 @@
+[
+  {
+    "id": "CTR-TWO-OF-FOUR",
+    "document": "NVDA-memo.pdf",
+    "page": 3,
+    "name": "Two of four hyperscalers capex flat or down",
+    "kind": "two_of_four",
+    "metric": "count of large hyperscalers guiding capex flat or down year over year",
+    "threshold": "any two of four",
+    "timeframe": "late-January 2027 window (2027-01-26 to 2027-02-06, estimated)",
+    "gates": "thesis-state → BEAR; rating → Sell; book exits if long",
+    "provenance": "source_backed",
+    "claim_id": "CLM-003",
+    "kill_switch": false,
+    "holders_only": false,
+    "related_factor_ids": [
+      "F-FY2028",
+      "F-11",
+      "F-NVDA-DEMAND"
+    ],
+    "related_event_ids": [
+      "EVT-CAPEX-MSFT",
+      "EVT-CAPEX-AMZN",
+      "EVT-CAPEX-GOOGL",
+      "EVT-CAPEX-META"
+    ]
+  },
+  {
+    "id": "CTR-FY2028-LT-45",
+    "document": "NVDA-memo.pdf",
+    "page": 46,
+    "name": "FY2028 guidance below 45%",
+    "kind": "fy2028_lt_45",
+    "metric": "FY2028 revenue growth guide",
+    "threshold": "below 45%",
+    "timeframe": "17 Nov commentary or formal guide on or around 2027-02-24",
+    "gates": "thesis-state → BEAR; rating → Sell",
+    "provenance": "source_backed",
+    "claim_id": "CLM-004",
+    "kill_switch": false,
+    "holders_only": false,
+    "related_factor_ids": [
+      "F-FY2028"
+    ],
+    "related_event_ids": [
+      "EVT-FY2028-COMMENTARY",
+      "EVT-FY2028-FORMAL-GUIDE"
+    ]
+  },
+  {
+    "id": "CTR-FY2028-CONFIRM",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "name": "FY2028 commentary near 70% with backlog",
+    "kind": "fy2028_near_70_with_backlog",
+    "metric": "FY2028 commentary plus backlog detail",
+    "threshold": "holding near 70% with backlog detail",
+    "timeframe": "2026-11-17 (company-confirmed)",
+    "gates": "thesis-state → BULL; rating → Buy at full weight; Neutral-spring override retires",
+    "provenance": "source_backed",
+    "claim_id": "CLM-005",
+    "kill_switch": false,
+    "holders_only": false,
+    "related_factor_ids": [
+      "F-FY2028"
+    ],
+    "related_event_ids": [
+      "EVT-FY2028-COMMENTARY"
+    ]
+  },
+  {
+    "id": "CTR-STOP-195",
+    "document": "NVDA-memo.pdf",
+    "page": 46,
+    "name": "$195 stop on two weekly closes",
+    "kind": "stop_195",
+    "metric": "weekly close",
+    "threshold": "$195.00 on two consecutive weekly closes",
+    "timeframe": "existing holders only; between as-of and the three dates",
+    "gates": "exit existing long; ignores a flat book",
+    "provenance": "source_backed",
+    "claim_id": "CLM-007",
+    "kill_switch": false,
+    "holders_only": true,
+    "related_factor_ids": [],
+    "related_event_ids": [
+      "EVT-WEEKLY-CLOSE-1",
+      "EVT-WEEKLY-CLOSE-2"
+    ]
+  },
+  {
+    "id": "CTR-KILL-TAIWAN",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "name": "Taiwan Strait kill switch",
+    "kind": "kill_switch",
+    "metric": "blockade, quarantine, or sustained export interruption",
+    "threshold": "any such event",
+    "timeframe": "continuous; unhedgeable before TSMC Arizona mass production in 2028",
+    "gates": "dominates other contracts; environment to Mud; book exits if long",
+    "provenance": "source_backed",
+    "claim_id": "CLM-011",
+    "kill_switch": true,
+    "holders_only": false,
+    "related_factor_ids": [
+      "F-21"
+    ],
+    "related_event_ids": [
+      "EVT-KILL-TAIWAN"
+    ]
+  },
+  {
+    "id": "CTR-KILL-TRAINING",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "name": "Non-NVIDIA frontier training kill switch",
+    "kind": "kill_switch",
+    "metric": "frontier training run of consequence on non-NVIDIA silicon at acceptable utilisation",
+    "threshold": "completes",
+    "timeframe": "continuous watch, most likely 2027–2028",
+    "gates": "dominates other contracts",
+    "provenance": "source_backed",
+    "claim_id": "CLM-013",
+    "kill_switch": true,
+    "holders_only": false,
+    "related_factor_ids": [
+      "F-05",
+      "F-13"
+    ],
+    "related_event_ids": [
+      "EVT-KILL-TRAINING"
+    ]
+  },
+  {
+    "id": "CTR-KILL-NETWORKING",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "name": "Networking attach kill switch",
+    "kind": "kill_switch",
+    "metric": "networking attach growth vs data-centre segment growth, plus share",
+    "threshold": "converges within ~10 points for two consecutive quarters while share still falls",
+    "timeframe": "quarterly, a 2027 signal",
+    "gates": "dominates other contracts",
+    "provenance": "source_backed",
+    "claim_id": "CLM-012",
+    "kill_switch": true,
+    "holders_only": false,
+    "related_factor_ids": [
+      "F-03"
+    ],
+    "related_event_ids": [
+      "EVT-KILL-NETWORKING"
+    ]
+  },
+  {
+    "id": "CTR-KILL-CASH",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "name": "Cash conversion kill switch",
+    "kind": "kill_switch",
+    "metric": "cash conversion (unadjusted / adjusted) and accruals",
+    "threshold": "below 65% unadjusted (or 78% adjusted) for two consecutive quarters with accruals above 20%",
+    "timeframe": "two consecutive quarters",
+    "gates": "dominates other contracts",
+    "provenance": "source_backed",
+    "claim_id": "CLM-014",
+    "kill_switch": true,
+    "holders_only": false,
+    "related_factor_ids": [
+      "F-06"
+    ],
+    "related_event_ids": [
+      "EVT-KILL-CASH"
+    ]
+  }
+]

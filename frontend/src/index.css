@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+@import '@xyflow/react/dist/style.css';
+
+:root {
+  --ink: #14110c;
+  --paper: #1c1812;
+  --panel: #241e16;
+  --line: #3a3226;
+  --text: #e8dcc4;
+  --muted: #9a8b72;
+  --gold: #d4a017;
+  --rust: #c45c26;
+  --sage: #7cb87c;
+  --bear: #c44c3a;
+  --bull: #5a9e6f;
+  --wait: #c9a227;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  background: var(--ink);
+  color: var(--text);
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  text-align: left;
+  border: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.mono {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+.react-flow__attribution {
+  display: none;
+}
+
+.react-flow__node-world {
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  background: transparent;
+  box-shadow: none;
+  font-size: 12px;
+  text-align: left;
+}

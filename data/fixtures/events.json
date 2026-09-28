@@ -1,0 +1,257 @@
+[
+  {
+    "id": "EVT-FY2028-COMMENTARY",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "name": "FY2028 commentary at Q3 FY2027 print",
+    "entity": "NVIDIA",
+    "event_type": "guidance_commentary",
+    "date": "2026-11-17",
+    "window": "2026-11-17",
+    "observability": "human_observable",
+    "possible_outcomes": [
+      "confirmation_near_70_with_backlog",
+      "ambiguous",
+      "softening_below_45"
+    ],
+    "third_party": false,
+    "description": "The print is not the catalyst; the FY2028 commentary attached to it is. A person must read the language. Ambiguous language resolves nothing.",
+    "watch_status": "awaiting_human"
+  },
+  {
+    "id": "EVT-Q3-PRINT",
+    "document": "NVDA-memo.pdf",
+    "page": 45,
+    "name": "Q3 FY2027 revenue / margin print",
+    "entity": "NVIDIA",
+    "event_type": "earnings_print",
+    "date": "2026-11-17",
+    "window": "2026-11-17",
+    "observability": "machine_observable",
+    "possible_outcomes": [
+      "in_line",
+      "beat",
+      "miss"
+    ],
+    "third_party": false,
+    "description": "Company-confirmed print vs guided $108.0B / 74.0% GM. Machine-readable. Does not by itself move thesis-state.",
+    "watch_status": "open"
+  },
+  {
+    "id": "EVT-CAPEX-MSFT",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "name": "Microsoft capex guide",
+    "entity": "Microsoft",
+    "event_type": "capex_guide",
+    "date": "2027-01-28",
+    "window": "2027-01-26/2027-02-06",
+    "observability": "machine_observable",
+    "possible_outcomes": [
+      "increase",
+      "flat_or_down"
+    ],
+    "third_party": true,
+    "description": "Third-party hyperscaler disclosure. One of four. Flat or down counts toward the two-of-four contract.",
+    "watch_status": "open"
+  },
+  {
+    "id": "EVT-CAPEX-AMZN",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "name": "Amazon capex guide",
+    "entity": "Amazon",
+    "event_type": "capex_guide",
+    "date": "2027-01-30",
+    "window": "2027-01-26/2027-02-06",
+    "observability": "machine_observable",
+    "possible_outcomes": [
+      "increase",
+      "flat_or_down"
+    ],
+    "third_party": true,
+    "description": "Third-party hyperscaler disclosure. One of four.",
+    "watch_status": "open"
+  },
+  {
+    "id": "EVT-CAPEX-GOOGL",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "name": "Alphabet capex guide",
+    "entity": "Alphabet",
+    "event_type": "capex_guide",
+    "date": "2027-02-03",
+    "window": "2027-01-26/2027-02-06",
+    "observability": "machine_observable",
+    "possible_outcomes": [
+      "increase",
+      "flat_or_down"
+    ],
+    "third_party": true,
+    "description": "Third-party hyperscaler disclosure. One of four.",
+    "watch_status": "open"
+  },
+  {
+    "id": "EVT-CAPEX-META",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "name": "Meta capex guide",
+    "entity": "Meta",
+    "event_type": "capex_guide",
+    "date": "2027-02-05",
+    "window": "2027-01-26/2027-02-06",
+    "observability": "machine_observable",
+    "possible_outcomes": [
+      "increase",
+      "flat_or_down"
+    ],
+    "third_party": true,
+    "description": "Third-party hyperscaler disclosure. One of four.",
+    "watch_status": "open"
+  },
+  {
+    "id": "EVT-FY2028-FORMAL-GUIDE",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "name": "Formal FY2028 guide",
+    "entity": "NVIDIA",
+    "event_type": "formal_guide",
+    "date": "2027-02-24",
+    "window": "on or around 2027-02-24",
+    "observability": "machine_observable",
+    "possible_outcomes": [
+      "near_70",
+      "below_45",
+      "other"
+    ],
+    "third_party": false,
+    "description": "Formal FY2028 growth guide. Below 45% is the short/exit trigger.",
+    "watch_status": "open"
+  },
+  {
+    "id": "EVT-WEEKLY-CLOSE-1",
+    "document": "NVDA-memo.pdf",
+    "page": 46,
+    "name": "Weekly close (first)",
+    "entity": "NVIDIA",
+    "event_type": "weekly_close",
+    "date": "2026-11-21",
+    "window": "between memo as-of and the three dates",
+    "observability": "machine_observable",
+    "possible_outcomes": [
+      "above_195",
+      "below_195"
+    ],
+    "third_party": false,
+    "description": "First of two weekly closes vs the $195.00 stop. Holders only.",
+    "watch_status": "open"
+  },
+  {
+    "id": "EVT-WEEKLY-CLOSE-2",
+    "document": "NVDA-memo.pdf",
+    "page": 46,
+    "name": "Weekly close (second)",
+    "entity": "NVIDIA",
+    "event_type": "weekly_close",
+    "date": "2026-11-28",
+    "window": "between memo as-of and the three dates",
+    "observability": "machine_observable",
+    "possible_outcomes": [
+      "above_195",
+      "below_195"
+    ],
+    "third_party": false,
+    "description": "Second of two weekly closes vs the $195.00 stop. Two consecutive closes below fire the stop.",
+    "watch_status": "open"
+  },
+  {
+    "id": "EVT-SUPPLY-LANGUAGE",
+    "document": "NVDA-memo.pdf",
+    "page": 16,
+    "name": "Supply-constrained language disappears",
+    "entity": "NVIDIA",
+    "event_type": "language_watch",
+    "date": null,
+    "window": "continuous",
+    "observability": "human_observable",
+    "possible_outcomes": [
+      "language_holds",
+      "language_disappears"
+    ],
+    "third_party": false,
+    "description": "A person must read a filing or transcript and tick the node. Potentially weakens the supply-constraint factor. Inert until adjudicated.",
+    "watch_status": "awaiting_human"
+  },
+  {
+    "id": "EVT-KILL-TAIWAN",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "name": "Taiwan Strait blockade / quarantine / export interruption",
+    "entity": "Taiwan Strait",
+    "event_type": "kill_switch",
+    "date": null,
+    "window": "continuous; unhedgeable before TSMC Arizona mass production in 2028",
+    "observability": "human_observable",
+    "possible_outcomes": [
+      "fired",
+      "clear"
+    ],
+    "third_party": true,
+    "description": "Kill switch. Environment goes to Mud; the rest is irrelevant for the duration.",
+    "watch_status": "awaiting_human"
+  },
+  {
+    "id": "EVT-KILL-TRAINING",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "name": "Frontier training run on non-NVIDIA silicon",
+    "entity": "Competitive silicon",
+    "event_type": "kill_switch",
+    "date": null,
+    "window": "continuous watch, most likely 2027–2028",
+    "observability": "human_observable",
+    "possible_outcomes": [
+      "fired",
+      "clear"
+    ],
+    "third_party": true,
+    "description": "Kill switch. A frontier training run of consequence completes on non-NVIDIA silicon at acceptable utilisation.",
+    "watch_status": "awaiting_human"
+  },
+  {
+    "id": "EVT-KILL-NETWORKING",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "name": "Networking attach converges while share still falls",
+    "entity": "NVIDIA",
+    "event_type": "kill_switch",
+    "date": null,
+    "window": "two consecutive quarters; a 2027 signal",
+    "observability": "machine_observable",
+    "possible_outcomes": [
+      "fired",
+      "clear"
+    ],
+    "third_party": false,
+    "description": "Kill switch. Networking attach growth converges within ~10 points of data-centre segment growth for two consecutive quarters while share still falls.",
+    "watch_status": "open"
+  },
+  {
+    "id": "EVT-KILL-CASH",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "name": "Cash conversion kill",
+    "entity": "NVIDIA",
+    "event_type": "kill_switch",
+    "date": null,
+    "window": "two consecutive quarters",
+    "observability": "machine_observable",
+    "possible_outcomes": [
+      "fired",
+      "clear"
+    ],
+    "third_party": false,
+    "description": "Kill switch. Cash conversion below 65% unadjusted (or 78% adjusted) for two consecutive quarters with accruals above 20%.",
+    "watch_status": "open"
+  }
+]

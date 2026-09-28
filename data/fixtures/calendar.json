@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CAL-01",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "event_id": "EVT-FY2028-COMMENTARY",
+    "date": "2026-11-17",
+    "label": "FY2028 commentary (the catalyst)",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-02",
+    "document": "NVDA-memo.pdf",
+    "page": 45,
+    "event_id": "EVT-Q3-PRINT",
+    "date": "2026-11-17",
+    "label": "Q3 FY2027 print (not the catalyst)",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-03",
+    "document": "NVDA-memo.pdf",
+    "page": 46,
+    "event_id": "EVT-WEEKLY-CLOSE-1",
+    "date": "2026-11-21",
+    "label": "Weekly close vs $195",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-04",
+    "document": "NVDA-memo.pdf",
+    "page": 46,
+    "event_id": "EVT-WEEKLY-CLOSE-2",
+    "date": "2026-11-28",
+    "label": "Weekly close vs $195 (second)",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-05",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "event_id": "EVT-CAPEX-MSFT",
+    "date": "2027-01-28",
+    "label": "Microsoft capex guide (third-party)",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-06",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "event_id": "EVT-CAPEX-AMZN",
+    "date": "2027-01-30",
+    "label": "Amazon capex guide (third-party)",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-07",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "event_id": "EVT-CAPEX-GOOGL",
+    "date": "2027-02-03",
+    "label": "Alphabet capex guide (third-party)",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-08",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "event_id": "EVT-CAPEX-META",
+    "date": "2027-02-05",
+    "label": "Meta capex guide (third-party)",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-09",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "event_id": "EVT-FY2028-FORMAL-GUIDE",
+    "date": "2027-02-24",
+    "label": "Formal FY2028 guide",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-10",
+    "document": "NVDA-memo.pdf",
+    "page": 16,
+    "event_id": "EVT-SUPPLY-LANGUAGE",
+    "date": "continuous",
+    "label": "Supply-constrained language (human)",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-11",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "event_id": "EVT-KILL-TAIWAN",
+    "date": "continuous",
+    "label": "Taiwan kill switch",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-12",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "event_id": "EVT-KILL-TRAINING",
+    "date": "continuous",
+    "label": "Non-NVIDIA frontier training kill switch",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-13",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "event_id": "EVT-KILL-NETWORKING",
+    "date": "continuous",
+    "label": "Networking-attach kill switch",
+    "unresolved": true
+  },
+  {
+    "id": "CAL-14",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "event_id": "EVT-KILL-CASH",
+    "date": "continuous",
+    "label": "Cash-conversion kill switch",
+    "unresolved": true
+  }
+]

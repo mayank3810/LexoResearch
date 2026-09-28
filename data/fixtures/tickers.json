@@ -1,0 +1,65 @@
+[
+  {
+    "symbol": "NVDA",
+    "document": "NVDA-memo.pdf",
+    "page": 2,
+    "name": "NVIDIA",
+    "role": "fully wired instance; only name with a position policy"
+  },
+  {
+    "symbol": "AMD",
+    "document": "NVDA-theme-report.pdf",
+    "page": 4,
+    "name": "Advanced Micro Devices",
+    "role": "shared-world exposure on AI demand / merchant second source"
+  },
+  {
+    "symbol": "TSMC",
+    "document": "NVDA-theme-report.pdf",
+    "page": 6,
+    "name": "Taiwan Semiconductor",
+    "role": "shared-world exposure on utilization / foundry"
+  },
+  {
+    "symbol": "AVGO",
+    "document": "NVDA-theme-report.pdf",
+    "page": 3,
+    "name": "Broadcom",
+    "role": "networking / custom silicon adjacency"
+  },
+  {
+    "symbol": "ANET",
+    "document": "NVDA-theme-report.pdf",
+    "page": 4,
+    "name": "Arista Networks",
+    "role": "networking vendor exposure"
+  },
+  {
+    "symbol": "MSFT",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "name": "Microsoft",
+    "role": "hyperscaler demand source; third-party disclosure"
+  },
+  {
+    "symbol": "AMZN",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "name": "Amazon",
+    "role": "hyperscaler demand source; third-party disclosure"
+  },
+  {
+    "symbol": "GOOGL",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "name": "Alphabet",
+    "role": "hyperscaler demand source; third-party disclosure"
+  },
+  {
+    "symbol": "META",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "name": "Meta",
+    "role": "hyperscaler demand source; third-party disclosure"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-08",
+  "ticker": "NVDA",
+  "price": 230.36,
+  "rating": "Hold",
+  "conviction": "Low",
+  "conviction_note": "Sourced qualitative conviction from the memo cover. Not a numeric score we invented.",
+  "position": "no position initiated",
+  "memo_date": "2026-09-08",
+  "document": "NVDA-memo.pdf",
+  "page": 2,
+  "fy2028": {
+    "workbook_revenue_m": 474927,
+    "workbook_growth_pct": 26.8,
+    "management_guide_pct": 70,
+    "consensus_revenue_m": 681500,
+    "note": "The −40.6% intrinsic gap localises to one row: FY2028 revenue of $474,927M (26.8% growth) against consensus $681,500M and management's guided ~70%.",
+    "claim_id": "CLM-002",
+    "document": "NVDA-memo.pdf",
+    "page": 3
+  }
+}

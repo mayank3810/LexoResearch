@@ -1,0 +1,112 @@
+[
+  {
+    "id": "EXP-NVDA-DEMAND",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "ticker": "NVDA",
+    "factor_id": "F-NVDA-DEMAND",
+    "has_position_policy": true,
+    "note": "Only NVDA carries a position policy in this build.",
+    "claim_id": "CLM-009"
+  },
+  {
+    "id": "EXP-NVDA-FY2028",
+    "document": "NVDA-memo.pdf",
+    "page": 3,
+    "ticker": "NVDA",
+    "factor_id": "F-FY2028",
+    "has_position_policy": true,
+    "note": "The rating sits on the FY2028 factor.",
+    "claim_id": "CLM-002"
+  },
+  {
+    "id": "EXP-NVDA-AI",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "ticker": "NVDA",
+    "factor_id": "F-11",
+    "has_position_policy": true,
+    "note": "NVIDIA demand is exposed to the AI infrastructure buildout.",
+    "claim_id": "CLM-009"
+  },
+  {
+    "id": "EXP-AMD-AI",
+    "document": "NVDA-theme-report.pdf",
+    "page": 28,
+    "ticker": "AMD",
+    "factor_id": "F-11",
+    "has_position_policy": false,
+    "note": "Merchant second source on the same demand factor. Visible exposure, no book.",
+    "claim_id": "CLM-018"
+  },
+  {
+    "id": "EXP-AMD-DEMAND",
+    "document": "NVDA-theme-report.pdf",
+    "page": 28,
+    "ticker": "AMD",
+    "factor_id": "F-NVDA-DEMAND",
+    "has_position_policy": false,
+    "note": "Shared demand shock; AMD has no position policy here.",
+    "claim_id": "CLM-018"
+  },
+  {
+    "id": "EXP-TSMC-AI",
+    "document": "NVDA-theme-report.pdf",
+    "page": 27,
+    "ticker": "TSMC",
+    "factor_id": "F-11",
+    "has_position_policy": false,
+    "note": "Utilization exposed to the same buildout wave.",
+    "claim_id": "CLM-015"
+  },
+  {
+    "id": "EXP-ANET-AI",
+    "document": "NVDA-theme-report.pdf",
+    "page": 27,
+    "ticker": "ANET",
+    "factor_id": "F-11",
+    "has_position_policy": false,
+    "note": "Networking vendor on the shared infrastructure wave.",
+    "claim_id": "CLM-015"
+  },
+  {
+    "id": "EXP-AVGO-ASIC",
+    "document": "NVDA-theme-report.pdf",
+    "page": 28,
+    "ticker": "AVGO",
+    "factor_id": "F-13",
+    "has_position_policy": false,
+    "note": "Custom silicon adjacency.",
+    "claim_id": "CLM-018"
+  },
+  {
+    "id": "EXP-NVDA-SUPPLY",
+    "document": "NVDA-memo.pdf",
+    "page": 16,
+    "ticker": "NVDA",
+    "factor_id": "F-19",
+    "has_position_policy": true,
+    "note": "Supply-constraint language is a NVIDIA-native watch.",
+    "claim_id": "CLM-010"
+  },
+  {
+    "id": "EXP-NVDA-TAIWAN",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "ticker": "NVDA",
+    "factor_id": "F-21",
+    "has_position_policy": true,
+    "note": "Taiwan concentration kill switch.",
+    "claim_id": "CLM-011"
+  },
+  {
+    "id": "EXP-TSMC-TAIWAN",
+    "document": "NVDA-memo.pdf",
+    "page": 38,
+    "ticker": "TSMC",
+    "factor_id": "F-21",
+    "has_position_policy": false,
+    "note": "Same existential geography.",
+    "claim_id": "CLM-011"
+  }
+]

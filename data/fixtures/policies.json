@@ -1,0 +1,12 @@
+[
+  {
+    "id": "POL-NEUTRAL-SPRING-OVERRIDE",
+    "document": "NVDA-memo.pdf",
+    "page": 46,
+    "name": "Neutral-spring starter override",
+    "provenance": "our_policy",
+    "text": "The platform's Neutral-spring rule maps to a starter position. This memo deliberately overrides it: Hold, no new weight. Painted as platform policy serving the analysis, not as a sourced size. Retires when the FY2028 confirmation contract fires and the rating moves to Buy at full weight.",
+    "retires_when": "CTR-FY2028-CONFIRM",
+    "claim_id": "CLM-008"
+  }
+]

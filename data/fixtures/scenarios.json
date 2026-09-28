@@ -1,0 +1,29 @@
+[
+  {
+    "id": "SCN-BULL",
+    "document": "NVDA-memo.pdf",
+    "page": 47,
+    "name": "BULL",
+    "probability_pct": 25,
+    "region": "FY2028 commentary holding near 70% with backlog detail at the 2026-11-17 print. 12-month target is the 52-week high $236.54.",
+    "claim_id": "CLM-005"
+  },
+  {
+    "id": "SCN-BASE",
+    "document": "NVDA-memo.pdf",
+    "page": 45,
+    "name": "BASE",
+    "probability_pct": 50,
+    "region": "Language that neither confirms nor breaks the guide. Drift toward the $199–$201 shelf. Doing nothing is the decision.",
+    "claim_id": "CLM-006"
+  },
+  {
+    "id": "SCN-BEAR",
+    "document": "NVDA-memo.pdf",
+    "page": 3,
+    "name": "BEAR",
+    "probability_pct": 25,
+    "region": "FY2028 guidance below 45%, or a hyperscaler capex deceleration signal (any two of four flat or down) in the late-January 2027 window.",
+    "claim_id": "CLM-003"
+  }
+]
