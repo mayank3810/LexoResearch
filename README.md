@@ -58,10 +58,6 @@ Preview deployments work the same way. World state is sent with each request, so
 - a human-observable node does not fire until adjudicated
 - identical tapes hash identically
 
-## Out of scope
-
-LangGraph, PDF ingest, live market data, brokers, auth, backtests, ML, native apps, invented conviction numbers, trading on summed factor impacts.
-
 ## Layout
 
 ```text
